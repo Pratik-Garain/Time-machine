@@ -1,0 +1,20 @@
+Drop your Gemini-generated .mp4 clips in this folder with these exact
+filenames (they're what data.js in the folder above already points to):
+
+  scene1.mp4            8s clip for Scene 1 — The Cartridge Parade
+  scene2.mp4            8s clip for Scene 2 — The Meerut Uprising
+  scene3.mp4            8s clip for Scene 3 — Before the Red Fort
+
+  ending-martyr.mp4      plays if the player picks "rebel" in all 3 scenes
+  ending-falters.mp4     plays if the player picks "rebel" in exactly 2 scenes
+  ending-survivor.mp4    plays if the player picks "loyalist" in 2+ scenes
+  ending-default.mp4     fallback — plays for any other mix of choices
+
+You do NOT need the videos to exist to test the page: if a file is
+missing, the page shows an on-screen "video not found" notice with a
+"Continue anyway" button so you can click through the whole MCQ flow
+before your clips are ready. Just open 1857.html in a browser (via a
+local server — see MAP.md at the project root) and click through.
+
+Delete this .txt file once your videos are in place — it's not
+referenced by any code.
